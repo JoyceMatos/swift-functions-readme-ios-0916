@@ -33,5 +33,8 @@ sayHelloToCat("Mittens")
 let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
-// Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+func pointsEarned(points: Int) {
+    print("Hello, you have won \(points)!")
+}
+
+pointsEarned(12)
